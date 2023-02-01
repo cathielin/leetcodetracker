@@ -1,0 +1,17 @@
+.container {
+    border: 1px solid #0A259F;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%;
+    width: 100%; */
+    height: 120px;
+    width: 120px;
+}
+
+.number {
+    font-weight: 800;
+    font-size: 25px;
+}

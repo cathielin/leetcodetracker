@@ -1,0 +1,43 @@
+/* 
+@keyframes buttonhover {
+    from {
+      background-color: #F2CBCB;
+    }
+  
+    to {
+      background-color: #D499A4;
+    }
+} */
+
+.button {
+    background-color: #0A259F;
+    font-weight: 600;
+    border-radius: 0px;
+    color: #F6F5F3;
+    outline: 0px;
+    /* max-width: 300px;
+    min-width: 100px;
+    max-height: 50px; */
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    transition: background-color 500ms;
+    z-index: 1;
+
+}
+
+.button:hover {
+    background-color: #8597e6;
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+      outline: 0px;
+      border: 0px;
+      border-radius: 8px;
+  }
+}
